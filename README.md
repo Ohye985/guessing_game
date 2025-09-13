@@ -18,6 +18,7 @@ A real-time multiplayer guessing game built with **Node.js**, **Socket.IO**, and
 ---
 
 ## 📂 Project Structure
+```bash
 guessing-game/
 ├─ server/ # Backend (Node.js + Socket.IO)
 │ ├─ package.json
@@ -27,6 +28,7 @@ guessing-game/
 └─ src/
 ├─ main.jsx
 └─ App.jsx
+```
 
 ## ⚙️ Setup & Run
 
