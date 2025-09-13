@@ -5,7 +5,7 @@ import "./App.css"
 // Change if your server runs on a different host/port
 // const SERVER_URL = "http://localhost:4000";
 
-const SERVER_URL = import.meta.env.VITE_SERVER_URL || window.location.origin || "http://localhost:10000";
+const SERVER_URL = import.meta.env.VITE_SERVER_URL || window.location.origin;
 
 
 

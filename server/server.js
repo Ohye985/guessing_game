@@ -14,11 +14,11 @@ app.use(cors());
 
 
 const server = http.createServer(app);
-// const io = new Server(server, { cors: { origin: '*' } });
-const io = new Server(server, { cors: { origin: ['https://guessing-game-altschool.netlify.app/','http://localhost:5173'], methods: ['GET','POST'] }});
+const io = new Server(server, { cors: { origin: '*' } });
+// const io = new Server(server, { cors: { origin: ['https://guessing-game-altschool.netlify.app/','http://localhost:5173'], methods: ['GET','POST'] }});
 
 
-const PORT = process.env.PORT || 10000;
+const PORT = process.env.PORT || 4000;
 
 // In-memory sessions map: sessionId -> session object
 const sessions = {};
